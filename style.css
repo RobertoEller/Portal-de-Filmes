@@ -1,0 +1,148 @@
+
+.header, main, body{
+    background-color: black;
+}
+.nav{
+    background-color: black;
+}
+
+.logo{
+    margin-top: 5px;;
+    width: 150px;
+}
+.container-fluid{
+    margin-top: 18px;
+}
+.menu{
+    margin-top: 27px;
+}
+.nav-link{
+    display: inline;
+    font-family: Stencil Std, fantasy;
+    font-weight: 10;
+    color: rgb(216, 0, 0);
+    letter-spacing: 0.5px;
+}
+.footer{
+    margin-top: 30px;
+}
+.footer_area{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: rgb(216, 0, 0);
+}
+.main{
+    margin-top: 20px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(216, 0, 0);
+    margin: 10px;
+}
+.Infos {
+    color:white;
+}
+.infos-extra{
+    font-size: small;
+}
+.filmes{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+h6{
+    margin-bottom: 40px;
+    color: rgb(216, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 50px;
+    color: rgb(216, 0, 0);
+    font-size: 30px;
+}
+.btn-group{
+    max-height: 45px;
+
+}
+.cardd{
+    padding:5px;
+}
+.avaliações, .mkof{
+    margin-top: 15px;
+}
+.card-text-avaliação{
+    padding-left: 3px;
+}
+.img-fluid{
+    margin-top: 25px;
+}
+.entrevistas > p {
+    font-size: small;
+    color:white
+}
+.logo-rodape{
+    margin-bottom: 20px;
+    max-width: 150px;
+
+}
+.novidades p{
+    color:white;
+    font-size: small;
+}
+h2{
+    color:white;
+    font-size: small;
+}
+.noticias h1{
+    margin-top: 30px;
+}
+.sobre h1{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.noticias div{
+    padding: 7px;
+}
+.titulos{
+    margin-top: 20px;
+}
+.redes{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/*Mobile */
+
+@media screen and (max-width: 800px) {
+
+    .card img{
+        display: none;
+    }
+    .Infos p{
+        margin-bottom: 38px;
+    }
+    .titulo{
+        margin-top: 0px;
+    }
+    .filmes{
+        height: 300px;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .infos-extra{
+        display: none;
+    }
+    .titulo{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+

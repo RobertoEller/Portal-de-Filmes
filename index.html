@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header class="container header">
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+          <div class="container-fluid">
+              <img class="logo navbar-brand" src="imgs/logo.jpg" alt="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" aria-controls="navbarNav"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="#lancamentos">Lançamentos</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#destaques">Destaques</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#avaliacoes">Avaliações</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#entrevistas">Entrevistas & Making of</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#novidades">Novidades</a></li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Pesquisar filme"
+                          aria-label="Search">
+                      <button class="btn btn-outline-danger" type="submit">Pesquisar</button>
+                  </form>
+              </div>
+          </div>
+      </nav>
+  </header>
+    <!--Principal-->
+    <main class="container main">
+        <div class="row carrosel">
+            <div class="col-12">
+                <h6>Lançamentos</h6>
+                <div id="carouselExampleIndicators" class="container carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="row">
+                        <div class="container carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                  <iframe class="col-xs-12 colsm-12 col-md-6 col-lg-6 filmes" width="560" height="400" src="https://www.youtube.com/embed/g6ng8iy-l0U?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                                  <div class="col-xs-12 colsm-12 col-md-6 col-lg-6 Infos">
+                                      <h1 class="titulo">Vingadores: Ultimato</h1>
+                                      <p>Em Vingadores: Ultimato, após Thanos eliminar metade das criaturas vivas em Vingadores: Guerra Infinita, os heróis precisam lidar com a dor da perda de amigos e seus entes queridos. Com Tony Stark (Robert Downey Jr.) vagando perdido no espaço sem água nem comida, o Capitão América/Steve Rogers (Chris Evans) e a Viúva Negra/Natasha Romanov (Scarlett Johansson) precisam liderar a resistência contra o titã louco.</p>
+                                      <p class="infos-extra"><b>Estreia:</b> 2019</p>
+                                      <p class="infos-extra"><b>Direção:</b> Joe Russo, Anthony Russo</p>    
+                                      <p class="infos-extra"><b>Roteiro:</b> Christopher Markus, Stephen McFeely</p>
+                                      <p class="infos-extra"><b>Elenco:</b> Robert Downey Jr, Chris Evans, Mark Ruffalo</p>                    
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="row">
+                                <iframe class="col-xs-12 colsm-12 col-md-6 col-lg-6 filmes" width="560" height="400" src="https://www.youtube.com/embed/wGyjbrMC-Ok?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                                <div class="col-xs-12 colsm-12 col-md-6 col-lg-6 Infos">
+                                    <h1 class="titulo">Gente Grande</h1>
+                                    <p>Em Gente Grande, Lenny, Kurt, Eric, Marcus e Rob se conhecem desde pequenos. Passados trinta anos, os cinco amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o feriado de 4 de Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons momentos. Casados e com várias crianças, os homens de família terão de confrontar o fato de não serem mais tão jovens.</p>
+                                    <p class="infos-extra"> <b> Estreia:</b> 2010</p>
+                                    <p class="infos-extra"> <b>Direção:</b> Dennis Dugan</p>    
+                                    <p class="infos-extra"> <b>Roteiro:</b> Fred Wolf, Adam Sandler</p>
+                                    <p class="infos-extra"> <b>Elenco:</b>  Adam Sandler, Kevin James, Chris Rock</p>                    
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="row">
+                                <iframe class="col-xs-12 colsm-12 col-md-6 col-lg-6 filmes" width="560" height="400" src="https://www.youtube.com/embed/S4PpYv9n0ko?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                                <div class="col-xs-12 colsm-12 col-md-6 col-lg-6 Infos">
+                                    <h1 class="titulo">O Regresso</h1>
+                                    <p>1822. Hugh Glass (Leonardo DiCaprio) parte para o oeste americano disposto a ganhar dinheiro caçando. Atacado por um urso, fica seriamente ferido e é abandonado à própria sorte pelo parceiro John Fitzgerald (Tom Hardy), que ainda rouba seus pertences. Entretanto, mesmo com toda adversidade, Glass consegue sobreviver e inicia uma árdua jornada em busca de vingança.</p>
+                                    <p class="infos-extra"><b>Estreia:</b> 2016</p>
+                                    <p class="infos-extra"><b>Direção:</b> Alejandro González Iñárritu</p>    
+                                    <p class="infos-extra"><b>Roteiro:</b> Mark L. Smith, Michael Punke</p>
+                                    <p class="infos-extra"><b>Elenco:</b>  Leonardo DiCaprio, Tom Hardy, Domhnall Gleeson</p>                    
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="destaques" id="destaques">Destaques</h1>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="text-align: right;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoria: TODOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Ação</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div class="row">
+                  <div class="cardd text-white col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                      <img src="imgs/Irlandes.jpg" class="card-img" alt="Clube da Luta">
+                  </div>
+                  <div class="cardd text-white col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                      <img src="imgs/The_Wolf_of_Wall_Street.jpg" class="card-img" alt="O Lobo de Wall Street">
+                  </div>
+                  <div class="cardd text-white col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                      <img src="imgs/intime.jpg" class="card-img" alt="O preço do Amanhã">
+                  </div>
+                  <div class="cardd text-white col-xs-12 col-sm-12 col-md-6 col-lg-3">
+                      <img src="imgs/golpe duplo.jpg" class="card-img" alt="Golpe Duplo">
+                  </div>
+                </div>
+
+                <div class="container" style="text-align: right; margin-top: 15px;">
+                  <div class="row">
+                      <div class="col-12">
+                          <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                      </div>
+                  </div>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h1 class="avaliações">Últimas avaliações</h1>
+                <div class="card bg-dark text-white mb-3 mb-3 col-sm-12 col-md-4 col-lg-4">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/imgs/card1.jpg" class="img-fluid rounded-start" alt="Avaliação">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Leonardo Silva</h5>
+                          <p class="card-text">Possui diversos lançamentos recentes e várias funcionalidade. Gostando muito da experiência no site.</p>
+                          <p class="card-text-avaliação"><small class="text-muted">★★★★★ 06/04/2022</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark text-white mb-3 col-sm-12 col-md-4 col-lg-4">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/imgs/card2.jpg" class="img-fluid rounded-start" alt="Avaliação">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Aline Ribeiro</h5>
+                          <p class="card-text">Gostei bastante da plataforma e recomendo bastante, existe várias opções de filmes e séries. Amei!!!</p>
+                          <p class="card-text-avaliação"><small class="text-muted">★★★★★ 10/03/2022</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-dark text-white mb-3 mb-3 col-sm-12 col-md-4 col-lg-4">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/imgs/card3.jpg" class="img-fluid rounded-start" alt="Avaliação">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Douglas Luiz</h5>
+                          <p class="card-text">Muitos filmes e séries, opções que se renovam pois está sempre atualizando, chegando conteúdo novo!</p>
+                          <p class="card-text-avaliação"><small class="text-muted">★★★★☆ 12/01/2022</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="container" style="text-align: right; margin-top: 15px;">
+              <div class="row">
+                  <div class="col-12">
+                      <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais avaliações</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h1 class="mkof col-12">Entrevista & Making of</h1>
+          </div>
+
+          <div class="row">
+                <div class="entrevistas col-xs-12 col-md-4 col-lg-4">
+                  <iframe class="col-12" src="https://www.youtube.com/embed/zd5CUyzTc34?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                  <h2>VELOZES E FURIOSOS 8</h2>
+                  <p> <b>Direção:</b> F. Gary Gray</p>
+                  <p><b>Roteiro:</b> Adam McKay, Adam McKay <b>Estreia:</b> 2021</p>
+                </div> 
+
+                <div class="entrevistas col-xs-12 col-md-4 col-lg-4">
+                  <iframe class="col-12" src="https://www.youtube.com/embed/h924nS6H8kk?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                  <h2>NÃO OLHE PARA CIMA</h2>
+                  <p><b>Direção:</b> Adam McKay </p>
+                  <p><b>Roteiro:</b> Adam McKay, Adam McKay <b>Estreia:</b> 2021</p>
+                </div>
+                        
+               <div class="entrevistas col-xs-12 col-md-4 col-lg-4">
+                <iframe class="col-12" src="https://www.youtube.com/embed/Li6WOB6Ieuk?autoplay=0&mute=0&controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"frameborder="0" allowfullscreen></iframe>
+                  <h2>BAD BOYS PARA SEMPRE</h2>
+                  <p> <b>Direção:</b> Adil El Arbi, Bilall Fallah </p>
+                  <p> <b>Roteiro:</b> Chris Bremner, Joe Carnahan <b>Estreia:</b> 2020</p>
+                </div>
+          </div>
+          <div class="container" style="text-align: right; margin-top: 15px;">
+            <div class="row">
+                <div class="col-12">
+                    <button type="button" class="btn btn-secondary btn-sm">+ Carregar mais filmes</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container novidades">
+                <div class="row">
+                  
+                  <div class="noticias col-sm-12 col-lg-9">
+                    <h1>Novidades</h1>
+                    <div class="row">
+                      <img class="col-xs- 12 col-md-4 col-lg-4" src="/imgs/AnimaisFantastico.jpg" alt="Novidade1">
+                      <div class="col-xs-12  col-md-8 col-lg-8">
+                        <h2>Diretor compara Harry Potter a filmes de super-heróis</h2>
+                        <p>De acordo com David Yates, o apelo duradouro do Mundo Mágico está na "capacidade de J.K. Rowling [criadora do universo Harry Potter] de criar personagens cativantes, acessíveis e agradáveis ​​de se passar o tempo", mas também em como a franquia se relaciona diretamente com as pessoas e suas realizações, semelhante ao que acontece com as produções de super-heróis, extremamente populares atualmente.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="row">
+                      <img class="col-xs- 12 col-md-4 col-lg-4" src="/imgs/TelaQuente.jpg" alt="Novidade1">
+                      <div class="col-xs-12  col-md-8 col-lg-8">
+                        <h2>Snowden - Herói ou Traidor na Tela Quente</h2>
+                        <p>Na Tela Quente desta segunda-feira (18), a Rede Globo vai exibir Snowden: Herói ou Traidor. Estrelado por Joseph Gordon-Levitt, o longa acompanha Edward Snowden, um ex-funcionário terceirizado da Agência de Segurança dos Estados Unidos que torna-se inimigo número um da nação ao divulgar a jornalistas uma série de documentos sigilosos que comprovam atos de espionagem praticados pelo governo norte-americano contra cidadãos comuns e lideranças internacionais.</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <img class="col-xs- 12 col-md-4 col-lg-4" src="/imgs/Thor.jpg" alt="Novidade1">
+                      <div class="col-xs-12  col-md-8 col-lg-8">
+                        <h2>Trailer de Thor 4</h2>
+                        <p>Demorou, mas chegou! O primeiro trailer de Thor: Amor e Trovão foi divulgado pelo Marvel Studios na manhã desta segunda-feira (18). Com adição de um poderoso cartaz, estrelado pelo deus nórdico de Chris Hemsworth, a prévia apresenta uma aventura repleta de rostos conhecidos e o bem-vindo
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-12 col-lg-3">
+                      <div>
+                        <h1 class="redes" style="margin-top: 30px;">Sobre</h1>
+                        <p>Imagine um lugar onde o cinema está no ar que se respira e a paixão pela sétima-arte não para de crescer. Esse é nosso objetivo, conectado com o que acontece nos bastidores dos filmes, trazendo para você informações diárias sobre diversas produções nacionais e internacionais, reunindo os melhores e mais populares filmes e séries para o seu entretenimento diário.</p>
+                      </div>
+
+                      <div>
+                        <h1 class="redes" style="margin-top: 30px;">Editorial</h1>
+                        <p> <b>Redação:</b> Roberto Eller Paiva</p>
+                        <p> <b>Pesquisa:</b> Roberto Eller Paiva</p>
+                        <p> <b>Gerente Geral:</b> Roberto Eller Paiva</p>
+                      </div>
+
+                      <div>
+                        <h1 class="redes" style="margin-top: 30px;">Redes sociais</h1>
+                        <P> <b>@roberto_eller</b></P>
+                      </div>
+                  </div>
+
+                </div>
+
+        </div>
+    </main>
+
+    <!--Rodapé-->
+    <footer class="container footer">
+        <div class="row">
+            <div class="col-12 footer_area">
+                Copyright 2022 - Disciplina de desenvolvimetno WEB - <b> ICEI PUC MINAS</b>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap Javascript 2.10 - 04/2022 -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous"></script>-->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>
